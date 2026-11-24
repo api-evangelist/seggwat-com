@@ -1,4 +1,4 @@
-# seggwat-com
+# SeggWat
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-seggwat-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://seggwat.com/
+SeggWat provides a feedback widget for indie hackers and small teams, enabling solo founders to gather user insights, ideas, and live chat in one place. The service offers fast understanding of users and helps ship the right features, with pricing starting at $6 per month. It aims to replace costly enterprise solutions with a lightweight, affordable tool for early-stage startups.
+
+**Areas:** Feedback · IndieHackers · SaaS · Startup · Widget
+
+## SeggWat on APIs.io
+
+Everything profiled for SeggWat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/seggwat-com/](https://apis.io/providers/seggwat-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SeggWat Service API](https://apis.io/apis/seggwat-com/seggwat-service-api/) — API for health checks, submitting feedback, managing feedback data, ratings, ideas, churn events, and contact messages.
+- [SeggWat Service API API](https://apis.io/apis/seggwat-com/seggwat-service-api-api/) — API for health checks, submitting feedback, managing feedback data, ratings, ideas, churn events, and contact messages. Includes project-level summary and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentFeedbackInput](https://apis.io/schemas/seggwat-com/seggwat-com-agent-feedback-input/)
+- [ChangelogEntry](https://apis.io/schemas/seggwat-com/seggwat-com-changelog-entry/)
+- [ChurnEvent](https://apis.io/schemas/seggwat-com/seggwat-com-churn-event/)
+- [ContactMessage](https://apis.io/schemas/seggwat-com/seggwat-com-contact-message/)
+- [Idea](https://apis.io/schemas/seggwat-com/seggwat-com-idea/)
+- [Survey](https://apis.io/schemas/seggwat-com/seggwat-com-survey/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Seggwat Com Context](https://apis.io/jsonld/seggwat-com/seggwat-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SeggWat API Rules](https://apis.io/rules/seggwat-com/seggwat-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SeggWat Authentication](https://apis.io/security/seggwat-com/seggwat-com-authentication/)
+- [SeggWat Domain Security](https://apis.io/security/seggwat-com/seggwat-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SeggWat Plans Pricing](https://apis.io/plans/seggwat-com/seggwat-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://seggwat.com/)
+- [Documentation](https://seggwat.com/docs/general/index)
+- [Getting started](https://seggwat.com/docs/general/quickstart)
+- [API reference](https://seggwat.com/docs/api-reference/ideas)
+- [Pricing](https://seggwat.com/pricing)
+- [Changelog](https://seggwat.com/docs/changelog)
+- [Blog](https://seggwat.com/blog)
+- [Terms of service](https://seggwat.com/legal/terms)
+- [Privacy policy](https://seggwat.com/legal/privacy)
+- [GitHub](https://github.com/seggwat)
+
+## API Evangelist rating
+
+**Kin Score 53.8** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 51.5 |
+
+**Agent readiness 41.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/seggwat-com/](https://apis.io/providers/seggwat-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SeggWat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/seggwat-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
